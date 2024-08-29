@@ -1,26 +1,30 @@
-# tanuden-stopbar
+# 🟥 Tanuden Stop Bar
+TRAINCREW停車位置を表示するソフト
 
-An Electron application with React and TypeScript
+## 使い方
+1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)にEXEファイルをダウンロードする。
+2. EXEを実行する。
+3. TRAINCREWを起動して、ダイヤを選択
+4. 「オーバーレイを開く」を押す
+5. 完成！
 
-## Recommended IDE Setup
+> [!IMPORTANT] 
+> このアプリは自動的にアップデートを確認をしません。アップデートの通知を受け取りたい場合は、Discordサーバーへの参加してください。
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Project Setup
-
-### Install
+## 開発者向き
+### インストール
 
 ```bash
 $ npm install
 ```
 
-### Development
+### 起動
 
 ```bash
 $ npm run dev
 ```
 
-### Build
+### ビルド
 
 ```bash
 # For windows
@@ -32,3 +36,22 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+## 🐛 不具合が見つける時・要望の提案・Pull Request
+Discordサーバーでメッセージを送ってください。
+
+## 💾 タヌ電OSS
+このリポジトリのソースコードはオープンソースです。[GPL-3.0ライセンス](https://github.com/haruyukitanuki/tanuden-stopbar?tab=GPL-3.0-1-ov-file)に従って、無償で内容を変更、共有、配布することができます。
+
+- [Line Seed Font](https://seed.line.me/index_jp.html) (SIL Open Font License v1)
+- [Bulma CSS](https://bulma.io) (MIT License)
+
+> [!IMPORTANT] 
+> このリポジトリには、狸河電鉄が所有するプロジェクト、製品、またはサービスの商標やロゴが含まれている場合があります。無断使用は禁止されています。
+
+## 💝 応援をよろしくお願いいたします。
+
+[**PIXIV FANBOX**](https://haruyukitanuki.fanbox.cc/)・[**狸河電鉄公式Discordサーバー**](https://discord.gg/WV2yRvYBN7)・
+[Twitter](https://twitter.com/haruyukitanuki)・[YouTube](https://youtube.com/@haruyukitanuki)
+
+**狸河電鉄作品｜Copyright &copy; 2024 Haruyuki Tanukiji.**
