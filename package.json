@@ -1,6 +1,6 @@
 {
   "name": "tanuden-stopbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Display stop position bar for TRAINCREW",
   "main": "./out/main/index.js",
   "author": "Haruyuki TANUKIJI <haruyuki@tanu.ch>",

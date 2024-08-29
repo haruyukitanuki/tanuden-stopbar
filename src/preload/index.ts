@@ -25,7 +25,7 @@ if (process.contextIsolated) {
 
 window.addEventListener('DOMContentLoaded', () => {
   // If this is the overlay window, we don't need to setup the titlebar
-  if (window.location.hash === '#/overlay') {
+  if (window.location.hash === '#/overlay' || window.location.search === '?noTitlebar=1') {
     return
   }
 

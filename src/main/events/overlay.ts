@@ -18,8 +18,9 @@ function createOverlayWindow(): BrowserWindow {
     overlayWindow.loadURL(process.env['ELECTRON_RENDERER_URL'] + '#/overlay')
     // overlayWindow.webContents.openDevTools()
   } else {
-    overlayWindow.loadFile(join(__dirname, '../renderer/index.html') + '#/overlay', {
-      hash: 'overlay'
+    overlayWindow.loadFile(join(__dirname, '../renderer/index.html'), {
+      hash: 'overlay',
+      query: { noTitlebar: '1' }
     })
   }
 
