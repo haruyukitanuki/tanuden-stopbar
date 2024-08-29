@@ -4,9 +4,11 @@ TRAINCREW停車位置を表示するソフト
 ## 使い方
 1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)にEXEファイルをダウンロードする。
 2. EXEを実行する。
-3. TRAINCREWを起動して、ダイヤを選択
-4. 「オーバーレイを開く」を押す
-5. 完成！
+3. TRAINCREWを起動
+4. TRAIN CREWで「設定 → 操作設定 → 外部デバイス入出力」を「有効」に設定してください。
+5. ダイヤを選択
+6. 「オーバーレイを開く」を押す
+7. 完成！
 
 > [!IMPORTANT] 
 > このアプリは自動的にアップデートを確認をしません。アップデートの通知を受け取りたい場合は、Discordサーバーへの参加してください。
