@@ -1,20 +1,17 @@
 # 🟥 Tanuden Stop Bar
-TRAINCREW停車位置を表示するソフト
+TRAINCREW停車位置バーを表示するソフト
 
 ![image](https://github.com/user-attachments/assets/e06e6d75-d712-41a2-8a1f-22592d93e169)
 
 
 ## 使い方
-1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)にEXEファイルをダウンロードする。
+1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)でEXEファイルをダウンロードする。
 2. EXEを実行する。
 3. TRAINCREWを起動
 4. TRAIN CREWで「設定 → 操作設定 → 外部デバイス入出力」を「有効」に設定してください。
 5. ダイヤを選択
 6. 「オーバーレイを開く」を押す
 7. 完成！
-
-> [!IMPORTANT] 
-> このアプリは自動的にアップデートを確認をしません。アップデートの通知を受け取りたい場合は、Discordサーバーへの参加してください。
 
 ## 開発者向き
 ### インストール
