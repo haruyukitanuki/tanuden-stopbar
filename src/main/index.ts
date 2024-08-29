@@ -8,6 +8,7 @@ import traincrewData from './utils/traincrewData'
 import { setupTitlebar, attachTitlebarToWindow } from 'custom-electron-titlebar/main'
 import './events/overlay'
 import { autoUpdater } from 'electron-updater'
+import variables from './utils/sharedVariables'
 
 // Setup titlebar
 setupTitlebar()
@@ -120,15 +121,17 @@ app.whenReady().then(async () => {
 
   autoUpdater.checkForUpdatesAndNotify()
 
-  app.on('before-quit', async () => {
+  variables.mainWindow?.on('close', () => {
     console.log('Main process stopping')
     traincrewData.stopDataLoop()
     traincrewLibAdapter.dispose()
 
-    if (sharedVariables.overlayWindow) {
-      sharedVariables.overlayWindow.close()
-    }
+    app.quit()
   })
+
+  // app.on('before-quit', async () => {
+
+  // })
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
