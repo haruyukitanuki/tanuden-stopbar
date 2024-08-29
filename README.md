@@ -1,6 +1,9 @@
 # 🟥 Tanuden Stop Bar
 TRAINCREW停車位置を表示するソフト
 
+![image](https://github.com/user-attachments/assets/e06e6d75-d712-41a2-8a1f-22592d93e169)
+
+
 ## 使い方
 1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)にEXEファイルをダウンロードする。
 2. EXEを実行する。
