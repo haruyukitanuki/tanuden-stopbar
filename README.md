@@ -5,7 +5,7 @@ TRAINCREW停車位置を表示するソフト
 
 
 ## 使い方
-1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)にEXEファイルをダウンロードする。
+1. [ここ](https://github.com/haruyukitanuki/tanuden-stopbar/releases)でEXEファイルをダウンロードする。
 2. EXEを実行する。
 3. TRAINCREWを起動
 4. TRAIN CREWで「設定 → 操作設定 → 外部デバイス入出力」を「有効」に設定してください。
