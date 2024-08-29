@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
     return
   }
 
-  const iconPath = join(__dirname, '../../resources/icon.png')
+  const iconPath = join(__dirname, '../../resources/logo.png')
 
   // Setup titlebar
   new Titlebar({

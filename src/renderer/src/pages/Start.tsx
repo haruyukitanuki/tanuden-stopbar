@@ -164,7 +164,7 @@ const Start = (): JSX.Element => {
             <button
               type="button"
               className={`button is-primary is-fullwidth my-2 ${overlayOpened ? 'is-outlined' : ''}`}
-              disabled={overlayOpened}
+              disabled={overlayOpened || !allowOverlay}
               onClick={() => {
                 window.electron.ipcRenderer.invoke('toggleOverlay', true)
                 setOverlayOpened(true)

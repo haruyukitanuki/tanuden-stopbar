@@ -14,7 +14,7 @@ setupTitlebar()
 function createWindow(): void {
   const mainWindow = new BrowserWindow({
     width: 520,
-    height: 300,
+    height: 305,
     show: false,
     maximizable: false,
     resizable: false,

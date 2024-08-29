@@ -5,6 +5,8 @@
   "main": "./out/main/index.js",
   "author": "Haruyuki TANUKIJI <haruyuki@tanu.ch>",
   "homepage": "https://myuntendai.tanuden.tanu.ch",
+  "repository": "https://github.com/haruyukitanuki/tanuden-stopbar",
+  "license": "GPL-3.0-only",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
@@ -17,8 +19,7 @@
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
     "build:win": "npm run build && electron-builder --win",
-    "build:mac": "electron-vite build && electron-builder --mac",
-    "build:linux": "electron-vite build && electron-builder --linux"
+    "dist:win": "rimraf ./dist && npm run build && electron-builder --win --publish always"
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
@@ -47,6 +48,7 @@
     "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
     "typescript": "^5.5.2",
     "vite": "^5.3.1"
   }

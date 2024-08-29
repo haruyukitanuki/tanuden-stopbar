@@ -10,8 +10,10 @@ html, body, #root {
 main {
     height: 100%;
     position: relative;
-}
 
+    border-bottom: var(--brand) 6px solid;
+    border-image: url('/tanuden-headborder.svg') 5 stretch;
+}
 
 * {
     /* Disable select */

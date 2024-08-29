@@ -5,3 +5,8 @@ out
 *.log*
 
 dll/
+
+*.env
+.env
+
+dep_installers/
