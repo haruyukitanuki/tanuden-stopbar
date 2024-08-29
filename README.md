@@ -1,5 +1,5 @@
 # 🟥 Tanuden Stop Bar
-TRAINCREW停車位置を表示するソフト
+TRAINCREW停車位置バーを表示するソフト
 
 ![image](https://github.com/user-attachments/assets/e06e6d75-d712-41a2-8a1f-22592d93e169)
 
