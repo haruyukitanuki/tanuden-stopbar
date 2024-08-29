@@ -93,7 +93,7 @@ function createWindow(): void {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(async () => {
   // Set app user model id for windows
-  electronApp.setAppUserModelId('com.electron')
+  electronApp.setAppUserModelId('ch.tanu.tanuden.stopbar')
 
   // Disable debug menu keybind in production
   app.on('browser-window-created', (_, window) => {
@@ -121,6 +121,10 @@ app.whenReady().then(async () => {
     console.log('Main process stopping')
     traincrewData.stopDataLoop()
     traincrewLibAdapter.dispose()
+
+    if (sharedVariables.overlayWindow) {
+      sharedVariables.overlayWindow.close()
+    }
   })
 
   app.on('activate', function () {

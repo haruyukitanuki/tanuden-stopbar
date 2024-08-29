@@ -170,7 +170,7 @@ const Start = (): JSX.Element => {
                 setOverlayOpened(true)
               }}
             >
-              {allowOverlay && overlayOpened ? (
+              {allowOverlay || overlayOpened ? (
                 <>{overlayOpened ? 'オーバーレイ有効です' : 'オーバーレイを開く'}</>
               ) : (
                 'ダイヤを選択してください'
