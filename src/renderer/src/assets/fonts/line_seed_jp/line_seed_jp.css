@@ -1,0 +1,72 @@
+/* LINE Seed Licensing
+
+All content of LINE Seed is copyrighted material owned by LY Corp.
+All fonts are released under the SIL Open Font License, Version1.1.
+This license is also available with a FAQ at: https://scripts.sil.org/OFL
+
+You can use them for any personal or commercial purposes.
+However, the software font files themselves cannot be sold by the other parties other than LY Corp.
+For commercial use, we highly recommend to include attribution in product or service.
+
+This isn't legal advice, please consider consulting a lawyer and see the full license for all details. */
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./LINESeedJP_OTF_Th.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./LINESeedJP_OTF_Rg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: bold;
+    font-weight: 600;
+    src: url('./LINESeedJP_OTF_Bd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: bold;
+    font-weight: 700;
+    src: url('./LINESeedJP_OTF_Eb.woff2') format('woff2');
+}
+
+/* Latin override */
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../line_seed_sans/LINESeedSans_W_Th.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+3000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../line_seed_sans/LINESeedSans_W_Rg.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+3000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: bold;
+    font-weight: 600;
+    src: url('../line_seed_sans/LINESeedSans_W_Bd.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+3000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../line_seed_sans/LINESeedSans_W_XBd.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+3000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

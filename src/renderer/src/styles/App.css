@@ -1,0 +1,74 @@
+html {
+    overflow-y: hidden;
+}
+
+html, body, #root {
+    height: 100%;
+    background-color: transparent;
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+
+* {
+    /* Disable select */
+    user-select: none;
+}
+
+.is-bordered {
+    border: 1px solid var(--grey-lightest);
+}
+
+.train-illust {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 4rem;
+    width: 100%;
+    overflow-y: hidden;
+
+    /* justify-items: start; */
+}
+
+.train-illust_block {
+    display: inline-block;
+    min-width: 4px;
+    height: 100%;
+    border-left: 1px solid var(--white-ter);
+
+    &.odd {
+        border-left: 1px solid var(--white-bis);
+    };
+
+    &.station-marker {
+        background-color: var(--danger);
+    };
+
+    &.station-marker-after {
+        background-color: var(--black);
+    };
+
+    &.station-pass-marker {
+        background-color: var(--success);
+    };
+
+    &.close-block {
+        &.stage-1 {
+            background-color: var(--grey-lightest);
+        };
+        &.stage-2 {
+            background-color: var(--grey-lighter);
+        };
+        &.stage-3 {
+            background-color: var(--grey-light);
+        };
+        &.stage-4 {
+            background-color: var(--grey);
+        };
+    }
+}

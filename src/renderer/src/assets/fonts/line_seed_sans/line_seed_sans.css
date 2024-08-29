@@ -1,0 +1,46 @@
+/* LINE Seed Sans Licensing
+
+All content of LINE Seed Sans is copyrighted material owned by LY Corp.
+All fonts are released under the SIL Open Font License, Version1.1.
+This license is also available with a FAQ at: https://scripts.sil.org/OFL
+
+You can use them for any personal or commercial purposes.
+However, the software font files themselves cannot be sold by the other parties other than LY Corp.
+For commercial use, we highly recommend to include attribution in product or service.
+
+This isn't legal advice, please consider consulting a lawyer and see the full license for all details. */
+
+@font-face {
+    font-family: 'LINE Seed Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./LINESeedSans_W_Th.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./LINESeedSans_W_Rg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed Sans';
+    font-style: bold;
+    font-weight: 700;
+    src: url('./LINESeedSans_W_Bd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed Sans';
+    font-style: bold;
+    font-weight: 800;
+    src: url('./LINESeedSans_W_XBd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LINE Seed Sans';
+    font-style: bold;
+    font-weight: 900;
+    src: url('./LINESeedSans_W_He.woff2') format('woff2');
+}
