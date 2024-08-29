@@ -7,6 +7,7 @@ import sharedVariables from './utils/sharedVariables'
 import traincrewData from './utils/traincrewData'
 import { setupTitlebar, attachTitlebarToWindow } from 'custom-electron-titlebar/main'
 import './events/overlay'
+import { autoUpdater } from 'electron-updater'
 
 // Setup titlebar
 setupTitlebar()
@@ -116,6 +117,8 @@ app.whenReady().then(async () => {
   // Initialize traincrew lib adapter
   traincrewLibAdapter.init()
   traincrewData.startDataLoop()
+
+  autoUpdater.checkForUpdatesAndNotify()
 
   app.on('before-quit', async () => {
     console.log('Main process stopping')
