@@ -49,7 +49,7 @@ const Overlay = (): JSX.Element => {
           <div
             className="overlay_current-position"
             style={{
-              top: `calc(${positionPercentage()}% - ${POSITION_MARKER_HEIGHT_PX / 2}px)`,
+              top: `calc(${positionPercentage()}% - ${POSITION_MARKER_HEIGHT_PX / 2 + 2}px)`,
               height:
                 Math.sqrt(POSITION_MARKER_HEIGHT_PX ** 2 + POSITION_MARKER_HEIGHT_PX ** 2) / 2 +
                 'px',
