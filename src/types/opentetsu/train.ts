@@ -56,11 +56,4 @@ interface TrainState {
   distanceFromKmZero: number
 }
 
-export type {
-  CarProperties,
-  CarState,
-  LampsAts,
-  Lamps,
-  NextSpeedLimit,
-  TrainState
-}
+export type { CarProperties, CarState, LampsAts, Lamps, NextSpeedLimit, TrainState }
