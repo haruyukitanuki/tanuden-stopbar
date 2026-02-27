@@ -1,17 +1,17 @@
 import { AppStateContext } from '@renderer/context/app_global_state'
 import { roundNumber } from '@renderer/utils/arithmetic'
-import { useContext, useEffect, useState } from 'react'
+import { ReactNode, useContext, useEffect, useState } from 'react'
 import TrainIcon from '../assets/Kumoha5300-2p.png'
 import { OpenTetsuData } from 'src/types/opentetsu/opentetsu-data'
 
-const Start = (): JSX.Element => {
+const Start = (): ReactNode => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { gameData }: { gameData: OpenTetsuData } = useContext<any>(AppStateContext)
 
   const [overlayOpened, setOverlayOpened] = useState(false)
   const allowOverlay = !!gameData?.diagramNumber
 
-  const [trainAheadDisplay, setTrainAheadDisplay] = useState<Array<JSX.Element>>()
+  const [trainAheadDisplay, setTrainAheadDisplay] = useState<Array<ReactNode>>()
   // Solely for cosmetic purposes. To make the route look like its moving.
   const [trackOddEven, setTrackOddEven] = useState<boolean>()
 
@@ -22,7 +22,7 @@ const Start = (): JSX.Element => {
         length: parseInt(gameData.nextStation.distanceFromTrain.toString())
       })
 
-      const trainAheadDisplayArray: Array<JSX.Element> = arrayLength.map((_, i) => {
+      const trainAheadDisplayArray: Array<ReactNode> = arrayLength.map((_, i) => {
         if (i === parseInt(gameData.nextStation.distanceFromTrain.toString()) - 1) {
           if (gameData.nextStation.stopType === 'Passing') {
             return <div key={i} className="train-illust_block station-pass-marker"></div>
@@ -138,14 +138,16 @@ const Start = (): JSX.Element => {
                 <div className="column has-text-centered is-one-quarter">
                   <div>
                     <p className="heading is-size-7">列車番号</p>
-                    <p className="title is-6 is-family-monospace">{gameData?.diagramNumber}</p>
+                    <p className="title is-6 is-family-monospace">
+                      {gameData?.diagramNumber || <>&mdash;</>}
+                    </p>
                   </div>
                 </div>
                 <div className="column has-text-centered is-one-quarter">
                   <div>
                     <p className="heading is-size-7">速度</p>
                     <p className="title is-6 is-family-monospace">
-                      {roundNumber(gameData?.trainState.speed, 1)}km/h
+                      {roundNumber(gameData?.trainState?.speed, 1)}km/h
                     </p>
                   </div>
                 </div>
