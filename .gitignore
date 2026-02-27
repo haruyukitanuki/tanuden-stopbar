@@ -9,4 +9,4 @@ dll/
 *.env
 .env
 
-dep_installers/
+bin/
