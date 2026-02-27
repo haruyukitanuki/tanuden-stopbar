@@ -1,10 +1,10 @@
-import { useContext, useEffect } from 'react'
+import { ReactNode, useContext, useEffect } from 'react'
 import { AppStateContext } from './context/app_global_state'
 import { Route, Routes } from 'react-router-dom'
 import Start from './pages/Start'
 import Overlay from './pages/Overlay'
 
-function App(): JSX.Element {
+function App(): ReactNode {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { setGameData } = useContext<any>(AppStateContext)
 

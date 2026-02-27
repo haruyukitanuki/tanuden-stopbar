@@ -1,8 +1,8 @@
 import { AppStateContext } from '@renderer/context/app_global_state'
-import { useContext } from 'react'
+import { ReactNode, useContext } from 'react'
 import { OpenTetsuData } from 'src/types/opentetsu/opentetsu-data'
 
-const Overlay = (): JSX.Element => {
+const Overlay = (): ReactNode => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { gameData }: { gameData: OpenTetsuData } = useContext<any>(AppStateContext)
 
