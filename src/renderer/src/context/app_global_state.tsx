@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react'
-import { GameData } from 'src/types/client-metadata'
+import { GameData } from '../../../types/client-metadata'
 export const AppStateContext = createContext({})
 
 const AppState = ({ children }: { children: React.ReactNode }): React.ReactNode => {

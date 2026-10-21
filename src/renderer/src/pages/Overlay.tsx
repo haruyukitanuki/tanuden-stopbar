@@ -1,6 +1,6 @@
 import { AppStateContext } from '@renderer/context/app_global_state'
 import { ReactNode, useContext } from 'react'
-import { OpenTetsuData } from 'src/types/opentetsu/opentetsu-data'
+import { OpenTetsuData } from '../../../types/opentetsu/opentetsu-data'
 
 const Overlay = (): ReactNode => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

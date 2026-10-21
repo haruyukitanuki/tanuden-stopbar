@@ -1,6 +1,7 @@
 // ご注意！
 // このファイルおよびMikasagawa API DLLバイナリはオープンソースソフトウェアではありません。無断使用はお断りします。
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 require('hazardous')
 import { app } from 'electron'
 import { join } from 'path'

@@ -2,7 +2,7 @@ import { AppStateContext } from '@renderer/context/app_global_state'
 import { roundNumber } from '@renderer/utils/arithmetic'
 import { ReactNode, useContext, useEffect, useState } from 'react'
 import TrainIcon from '../assets/Kumoha5300-2p.png'
-import { OpenTetsuData } from 'src/types/opentetsu/opentetsu-data'
+import { OpenTetsuData } from '../../../types/opentetsu/opentetsu-data'
 
 const Start = (): ReactNode => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
