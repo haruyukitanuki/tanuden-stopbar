@@ -1,6 +1,6 @@
 {
   "name": "tanuden-stopbar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Display stop position bar for TRAINCREW",
   "main": "./out/main/index.js",
   "author": "Haruyuki TANUKIJI <haruyuki@tanu.ch>",
@@ -40,7 +40,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.4",
-    "electron": "^40.6.1",
+    "electron": "^44.9.3",
     "electron-builder": "^26.8.1",
     "electron-vite": "^5.0.0",
     "eslint": "^9.39.3",
