@@ -30,7 +30,7 @@
     "electron-updater": "^6.8.3",
     "hazardous": "^0.3.0",
     "node-api-dotnet": "^0.9.19",
-    "react-router-dom": "^7.13.1"
+    "react-router-dom": "^7.18.5"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^3.0.0",
