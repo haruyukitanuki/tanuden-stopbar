@@ -27,7 +27,7 @@
     "@fontsource/reddit-mono": "^5.2.8",
     "custom-electron-titlebar": "^4.2.8",
     "electron-overlay-window": "^4.0.2",
-    "electron-updater": "^6.8.3",
+    "electron-updater": "^6.8.11",
     "hazardous": "^0.3.0",
     "node-api-dotnet": "^0.9.19",
     "react-router-dom": "^7.13.1"
